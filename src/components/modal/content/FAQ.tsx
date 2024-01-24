@@ -1,10 +1,7 @@
-import { FC, ReactNode, useState } from "react";
-
-import { FAQ_MODAL, docsLinks, tokenContractDocs } from "~/config/constants";
-
-import { useApplicationStateStore } from "~/store";
-
-import { withKeysHandler } from "~/utils/react";
+import { FC, ReactNode, useState } from "react"
+import { FAQ_MODAL, docsLinks, tokenContractDocs } from "~/config/constants"
+import { useApplicationStateStore } from "~/store"
+import { withKeysHandler } from "~/utils/react"
 
 type FAQProps = {};
 

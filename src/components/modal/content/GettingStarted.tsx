@@ -1,13 +1,13 @@
-import { FC } from "react";
+import { FC } from "react"
 
 import {
   GETTING_STARTED_MODAL,
   docsLinks,
   tokenContractDocs,
-} from "~/config/constants";
-import { Link } from "~/components/common/GetLink";
+} from "~/config/constants"
+import { Link } from "~/components/common/GetLink"
 
-import { useApplicationStateStore } from "~/store";
+import { useApplicationStateStore } from "~/store"
 
 const ENV = String(process.env.NEXT_PUBLIC_ENVIRONMENT);
 

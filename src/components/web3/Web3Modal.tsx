@@ -103,7 +103,7 @@ export const Web3Modal = () => {
     }
   }, [isTerraConnected]);
 
-  // notify user that he already has a connected account but it's not the active one
+  // notify user that they already has a connected account but it's not the active one.
   useEffect(() => {
     if (error) {
       toast.error("Wallet already connected");
